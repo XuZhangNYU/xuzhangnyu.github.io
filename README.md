@@ -1,2 +1,2 @@
-# tyleransom.github.io
-Repository for Tyler Ransom's academic research website.
+# Xu-Zhang-Courant.github.io
+Repository for Xu Zhang's academic research website. Adapted from tyleransom.github.io. 
