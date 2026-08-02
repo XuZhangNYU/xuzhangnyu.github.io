@@ -77,6 +77,14 @@
         flex-wrap: wrap;
         justify-content: space-between;
       }
+      /* Added responsive image formatting */
+      .profile-img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 6px;
+        margin-bottom: 15px;
+        display: block;
+      }
     </style>
   </head>
   <body>
@@ -101,8 +109,8 @@
     <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </header>
       <section>
-      <img src="calligraphy_Xu_name.JPG" height="400" width="275" alt="Xu Zhang"></h3>
-      <img src="selfie_impression.jpg" height="596" width="317" alt="Xu Zhang"></h3>
+      <!-- Top Image: Selfie -->
+      <img src="selfie_impression.jpg" height="596" width="317" alt="Xu Zhang" class="profile-img">
 
   <p>I am currently a Research Intern at the <a href="https://ai4ce.github.io/">NYU Tandon AI4CE Lab</a>. I completed my M.S. in Computer Science at <a href="https://cims.nyu.edu/dynamic/">New York University</a> (2026) and received my B.S. in <a href="https://math.utexas.edu/">Mathematics</a> (with honors) from <a href="https://www.utexas.edu/">UT Austin</a> in 2024.</p>
 
@@ -111,6 +119,9 @@
   <p>In particular, I am interested in real-world physical robot deployment for humanoid navigation, loco-manipulation and motion tracking (in humanoid literatures such as SONIC, it means training to execute input traj in a physically feasible sense. This is different from motion tracking in computer graphics), sim-to-real transfer in physics simulation (Isaac Sim), and multimodal embodied agent for long-horizon task planning.</p>
 
   <p>I also bring a strong combination of physical hardware deployment experience, computer vision research, and low-level system engineering (such as custom CUDA kernel optimization from scratch).</p>
+
+  <!-- Bottom Image: Calligraphy placed after main intro -->
+  <img src="calligraphy_Xu_name.JPG" height="400" width="275" alt="Xu Zhang Name Calligraphy" class="profile-img">
 
   <section id="Some Talks I did">
     <h2>Talks & Presentations</h2>
